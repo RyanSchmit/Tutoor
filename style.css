@@ -1,0 +1,22 @@
+/*add to style.css*/
+*{
+    overflow-x: hidden;
+}
+
+@media (max-width: 410px) {
+    header .intro-text .intro-heading {
+        font-size: 30pt;
+    }
+}
+
+@media (max-width: 330px) {
+    header .intro-text .intro-heading {
+        font-size: 20pt;
+    }
+}
+
+@media (max-width: 670px) {
+    header .intro-text .intro-lead-in {
+    margin-top: 50pt;
+    }
+}
